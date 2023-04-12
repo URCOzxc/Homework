@@ -9,7 +9,9 @@
 }    
 #column1 {
     color: green;
+    inset: 45%;
 }
 #column2 {
     color: blue;
+    inset: 50%;
 }
