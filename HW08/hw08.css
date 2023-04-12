@@ -9,7 +9,7 @@
 }    
 #column1 {
     color: green;
-    inset: 45%;
+    inset: left 45%;
 }
 #column2 {
     color: blue;
