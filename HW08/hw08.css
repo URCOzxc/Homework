@@ -1,13 +1,17 @@
 #planet1 {
     Position:absolute;
-    left: 75*0px;
-    top: 30*1px;
+    left: calc(75*0px);
+    top: calc(30*1px);
 }
 #planet2 {
-
+    Position:absolute;
+    left: calc(75*1px);
+    top: calc(30*2px);
 }
 #planet3 {
-
+    Position:absolute;
+    left: calc(75*2px);
+    top: calc(30*3px);
 }
 #planet3 {
 
