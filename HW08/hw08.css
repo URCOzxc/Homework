@@ -9,9 +9,9 @@
 }    
 #column1 {
     color: green;
-    text-align: left;
+    width: 45%;
 }
 #column2 {
     color: blue;
-    text-align: right;
+    width: 50%;
 }
