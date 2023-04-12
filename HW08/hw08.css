@@ -8,10 +8,12 @@
     border: red thick outset;
 }    
 #column1 {
-    color: green;
     width: 45%;
+    color: green;
+    
 }
 #column2 {
-    color: blue;
     width: 50%;
+    color: blue;
+    
 }
