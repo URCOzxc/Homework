@@ -2,48 +2,57 @@
     Position:absolute;
     left: calc(75*0px);
     top: calc(30*1px);
+    z-index: 7;
 }
 #planet2 {
     Position:absolute;
     left: calc(75*1px);
     top: calc(30*2px);
+    z-index: 8;
 }
 #planet3 {
     Position:absolute;
     left: calc(75*2px);
     top: calc(30*3px);
     border: blue thick inset;
+    z-index: 9;
 }
 #planet4 {
     Position:absolute;
     left: calc(75*3px);
     top: calc(30*4px);
+    z-index: 8;
 }
 #planet5 {
     Position:absolute;
     left: calc(75*4px);
     top: calc(30*5px);
+    z-index: 7;
 }
 #planet6 {
     Position:absolute;
     left: calc(75*5px);
     top: calc(30*6px);
+    z-index: 6;
 }
 #planet7 {
     Position:absolute;
     left: calc(75*6px);
     top: calc(30*7px);
+    z-index: 5;
 }
 #planet8 {
     Position:absolute;
     left: calc(75*7px);
     top: calc(30*8px);
+    z-index: 4;
 }
 #planet9 {
     Position:absolute;
     left: calc(75*8px);
     top: calc(30*9px);
     border: red thin dashed;
+    z-index: 3;
 }
 
 
