@@ -1,0 +1,15 @@
+
+.endofpage {
+    width: 660px;
+    margin-left: 20px;
+    margin-top: 450px;
+    height: 150px;
+    padding: 10px;
+    border: red thick outset;
+}    
+#column1 {
+    color: green;
+}
+#column2 {
+    color: blue;
+}
