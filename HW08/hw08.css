@@ -9,9 +9,9 @@
 }    
 #column1 {
     color: green;
-    text-align: 45%;
+    text-align: left;
 }
 #column2 {
     color: blue;
-    inset: 50%;
+    text-align: right;
 }
