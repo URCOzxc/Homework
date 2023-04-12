@@ -12,6 +12,7 @@
     Position:absolute;
     left: calc(75*2px);
     top: calc(30*3px);
+    border: blue thick inset;
 }
 #planet4 {
     Position:absolute;
@@ -42,6 +43,7 @@
     Position:absolute;
     left: calc(75*8px);
     top: calc(30*9px);
+    border: red thin dashed;
 }
 
 
