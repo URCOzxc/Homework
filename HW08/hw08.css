@@ -1,3 +1,36 @@
+#planet1 {
+    Position:absolute;
+    left: 75*0px;
+    top: 30*1px;
+}
+#planet2 {
+
+}
+#planet3 {
+
+}
+#planet3 {
+
+}
+#planet4 {
+
+}
+#planet5 {
+
+}
+#planet6 {
+
+}
+#planet7 {
+
+}
+#planet8 {
+
+}
+#planet9 {
+
+}
+
 
 .endofpage {
     width: 660px;
@@ -8,12 +41,12 @@
     border: red thick outset;
 }    
 #column1 {
-    text-align: 45%;
+    width: 45%;
     color: green;
     
 }
 #column2 {
-    text-align: 50%;
+    width: 50%;
     color: blue;
     
 }
