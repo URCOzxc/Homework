@@ -1,7 +1,7 @@
 #planet1 {
     Position:absolute;
     left: calc(75*0px);
-    top: calc(30*1px);
+    top: calc(100px);
 }
 #planet2 {
     Position:relative;
