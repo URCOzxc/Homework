@@ -8,12 +8,12 @@
     border: red thick outset;
 }    
 #column1 {
-    width: 45%;
+    text-align: 45%;
     color: green;
     
 }
 #column2 {
-    width: 50%;
+    text-align: 50%;
     color: blue;
     
 }
