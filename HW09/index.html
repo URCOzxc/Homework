@@ -3,12 +3,34 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <p><a href="../index.html">Homework Index</a></p>
-        <title>Ordering a sandwich</title>
+        <title>Scapecutters</title>
     </head>
     <body>
+        <h1>Scapecutters</h1>
+        <table>
         <form action="process.php" method="post">
-            <p>
-                Size of sandwich: 
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="custname"/></td>
+            </tr>
+            <tr>
+                <td>Address</td><td><input type="text" name="adr1"/></td>
+            </tr>
+            <tr>
+                <td>Grass</td>
+                <td>
+                    <input type="checkbox" name="cut"/>Cut
+                    <input type="radio" name="tall"/>2"
+                    <input type="radio" name="tall"/>2.5"
+                    <input type="radio" name="tall"/>3"
+                    <input type="radio" name="tall"/>4"
+                </td>
+            </tr>    
+
+                
+            
+            
+            Size of sandwich: 
                 <input type="radio" name="size" value="Six"/>Half a foot 
                 <input type="radio" name="size" value="Foot"/>Full size<br/>
 
@@ -18,15 +40,19 @@
                     <option selected="selected" value="WW">Wholewheat</option>
                     <option value="RY">Rye</option>
                 </select><br/>
-                
+
                 Toppings:<br/>
                 <input type="checkbox" name="MA" checked="checked" value="MA"/>Mayo
                 <input type="checkbox" name="JP" value="JP" disabled="disabled"/>Jalapeno
                 <input type="checkbox" name="KE" value="KE" />Ketchup
                 <input type="checkbox" name="CH" value="CH" />Cheese
                 <input type="checkbox" name="PI" value="PI" />Pickles<br/>
-            </p>
+            
             <input type="submit" />
         </form>
+        </table>
     </body>
 </html>
+
+
+    
