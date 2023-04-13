@@ -65,12 +65,12 @@
     border: red thick outset;
 }    
 #column1 {
-    margin-left: 5%;
+    text-align: left 45%;
     color: green;
     
 }
 #column2 {
-    margin-left: 50%;
+    text-align: right 50%;
     color: blue;
     
 }
