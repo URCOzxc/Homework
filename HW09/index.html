@@ -10,45 +10,46 @@
         <table>
         <form action="process.php" method="post">
             <tr>
-                <td>Name</td>
-                <td><input type="text" name="custname"/></td>
+                <td>Name:</td>
+                <td><input type="text" name="custname"></td>
             </tr>
             <tr>
-                <td>Address</td><td><input type="text" name="adr1"/></td>
+                <td>Address:</td><td><input type="text" name="adr1"></td>
             </tr>
             <tr>
-                <td>Grass</td>
+                <td>Grass:</td>
                 <td>
-                    <input type="checkbox" name="cut"/>Cut
-                    <input type="radio" name="tall"/>2"
-                    <input type="radio" name="tall"/>2.5"
-                    <input type="radio" name="tall"/>3"
-                    <input type="radio" name="tall"/>4"
+                    <input type="checkbox" name="cut">Cut
+                    <input type="radio" name="tall">2"
+                    <input type="radio" name="tall">2.5"
+                    <input type="radio" name="tall">3"
+                    <input type="radio" name="tall">4"
                 </td>
             </tr>    
-
-                
-            
-            
-            Size of sandwich: 
-                <input type="radio" name="size" value="Six"/>Half a foot 
-                <input type="radio" name="size" value="Foot"/>Full size<br/>
-
-                Type of bread:  
-                <select name="bread">
-                    <option value="WH">Wimpy-White</option>
-                    <option selected="selected" value="WW">Wholewheat</option>
-                    <option value="RY">Rye</option>
-                </select><br/>
-
-                Toppings:<br/>
-                <input type="checkbox" name="MA" checked="checked" value="MA"/>Mayo
-                <input type="checkbox" name="JP" value="JP" disabled="disabled"/>Jalapeno
-                <input type="checkbox" name="KE" value="KE" />Ketchup
-                <input type="checkbox" name="CH" value="CH" />Cheese
-                <input type="checkbox" name="PI" value="PI" />Pickles<br/>
-            
-            <input type="submit" />
+            <tr>
+                <td>Trim:</td>
+                <td>
+                    <input type="checkbox" name="edge">Edges
+                    <input type="checkbox" name="hedge">Hedges
+                </td>
+            </tr>
+            <tr>
+                <td>Dispose of cuttings by:</td>
+                <select name="dispose">
+                    <option value="nothing">Do Nothing</option>
+                    <option value="mulch">Use mulching mower</option>
+                    <option value="rake">Rake/remove</option>
+                </select>
+            </tr>
+            <tr>
+                <td><input type="submit" name="when" value="Whenever"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" src="soon.jpg" name="soon_x"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" src="help.jpg" name="help_y"></td>
+            </tr>    
         </form>
         </table>
     </body>
