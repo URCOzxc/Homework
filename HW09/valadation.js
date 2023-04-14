@@ -1,6 +1,8 @@
+let cutbutton = null;
+
 function setvar() {
     var cutbutton = document.getElementById("cutbox");
-    cutbutton.addEventListener('click', disablebutton(cutbutton));
+    cutbutton.addEventListener('click', disablebutton);
 }
   
 function disablebutton(cutbutton){
