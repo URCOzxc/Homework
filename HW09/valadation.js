@@ -1,8 +1,12 @@
+const cutbutton = document.getElementById("cutbox");
+
 function disablebutton() {
-    if(document.getElementById("cutbox").checked){
+    if(cutbutton.checked){
         document.getElementsByClassName("dark").disabled = false;
     }
-    if(!document.getElementById("cutbox").checked){
+    if(!cutbutton.checked){
         document.getElementsByClassName("dark").disabled = true;
     }
 }
+
+cutbutton.addEventListener('click', disablebutton());
