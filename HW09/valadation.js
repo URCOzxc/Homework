@@ -5,6 +5,7 @@ function setvar() {
   
 function disablebutton(cutbutton){
     var darkElements = document.getElementsByClassName("dark");
+    console.log(darkElements);
 
     for (var i = 0; i < darkElements.length; i++) {
         if(cutbutton.checked) {
