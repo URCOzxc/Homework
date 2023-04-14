@@ -5,7 +5,7 @@ function setvar() {
     cutbutton.addEventListener('click', disablebutton);
 }
   
-function disablebutton(cutbutton){
+function disablebutton() {
     var darkElements = document.getElementsByClassName("dark");
     console.log(darkElements);
     console.log(cutbutton);
