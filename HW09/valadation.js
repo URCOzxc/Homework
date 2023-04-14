@@ -13,5 +13,3 @@ function disablebutton() {
         document.getElementsByClassName("dark").disabled = true;
     }
 }
-
-document.addEventListener('load', setvar());
