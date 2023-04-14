@@ -1,15 +1,17 @@
-let cutbutton = null;
-
-function setvar() {
-    cutbutton = document.getElementById("cutbox");
-    cutbutton.addEventListener('click', disablebutton());
-}
-
-function disablebutton() {
-    if(cutbutton.checked) {
-        document.getElementsByClassName("dark").disabled = false;
+document.addEventListener("DOMContentLoaded", function {
+    var cutbutton = document.getElementById("cutbox");
+  
+    function disablebutton() {
+      var darkElements = document.getElementsByClassName("dark");
+      for (var i = 0; i < darkElements.length; i++) {
+          if(cutbutton.checked) {
+              darkElements[i].disabled = false;
+          }
+          if(!cutbutton.checked) {
+              darkElements[i].disabled = true;
+          }
+      }
     }
-    if(!cutbutton.checked) {
-        document.getElementsByClassName("dark").disabled = true;
-    }
-}
+  
+    cutbutton.addEventListener('click', disablebutton);
+  });
