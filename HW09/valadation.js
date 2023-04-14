@@ -2,6 +2,7 @@ let cutbutton = null;
 
 function setvar() {
     cutbutton = document.getElementById("cutbox");
+    cutbutton.addEventListener('click', disablebutton());
 }
 
 function disablebutton() {
@@ -14,4 +15,3 @@ function disablebutton() {
 }
 
 document.addEventListener('load', setvar());
-cutbutton.addEventListener('click', disablebutton());
