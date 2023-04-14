@@ -1,7 +1,7 @@
 let cutbutton = null;
 
 function setvar() {
-    const cutbutton = document.getElementById("cutbox");
+    cutbutton = document.getElementById("cutbox");
 }
 
 function disablebutton() {
