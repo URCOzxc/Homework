@@ -1,5 +1,6 @@
 function setvar() {
     var cutbutton = document.getElementById("cutbox");
+    console.log(cutbutton);
     cutbutton.addEventListener('click', disablebutton(cutbutton));
 }
   
