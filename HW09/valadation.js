@@ -23,4 +23,4 @@ function formmagic() {
     setvar();
 }
 
-document.addEventListener("DOMContentLoaded", formmagic());
+document.addEventListener("DOMContentLoaded", formmagic);
