@@ -19,7 +19,6 @@ function disablebutton(cutbutton){
 
 function formmagic() {
     setvar();
-    disablebutton();
 }
 
 document.addEventListener("DOMContentLoaded", formmagic)
