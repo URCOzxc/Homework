@@ -1,12 +1,12 @@
 function setvar() {
     var cutbutton = document.getElementById("cutbox");
-    console.log(cutbutton);
     cutbutton.addEventListener('click', disablebutton(cutbutton));
 }
   
 function disablebutton(cutbutton){
     var darkElements = document.getElementsByClassName("dark");
     console.log(darkElements);
+    console.log(cutbutton);
 
     for (var i = 0; i < darkElements.length; i++) {
         if(cutbutton.checked) {
