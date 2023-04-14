@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function {
+document.addEventListener("DOMContentLoaded", function() {
     var cutbutton = document.getElementById("cutbox");
   
     function disablebutton() {
@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function {
           }
           if(!cutbutton.checked) {
               darkElements[i].disabled = true;
+              darkElements[i].checked = false;
           }
       }
     }
