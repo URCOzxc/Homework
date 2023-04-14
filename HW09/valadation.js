@@ -1,4 +1,4 @@
-const cutbutton = document.querySelector("#cutbox");
+var cutbutton = document.getElementById("cutbox");
 
 function disablebutton() {
     if(cutbutton.checked){
